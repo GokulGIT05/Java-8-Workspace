@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class WithoutLambda {
-
+public class ComparatorWithLambda {
 	public static void main(String[] args) {
 
 		ArrayList<Integer> al = new ArrayList<Integer>();
@@ -16,19 +15,11 @@ public class WithoutLambda {
 		al.add(25);
 
 		System.out.println("Before Sorting: " + al);
-		Collections.sort(al, new MyComparator());
-		System.out.println("After Sorting: " + al);
+		// Lambda Expression- Descending Order
+		Comparator<Integer> compRef = (I1, I2) -> I2.compareTo(I1);
+		Collections.sort(al, compRef);
+		System.out.println("Descending Order: " + al);
 
-	}
-
-}
-
-class MyComparator implements Comparator<Integer> {
-
-	@Override
-	public int compare(Integer o1, Integer o2) {
-		// TODO Auto-generated method stub
-		return -o1.compareTo(o2);
 	}
 
 }

@@ -10,6 +10,7 @@ public class TestWOverriding implements DefaultInterface{
 
 	}
 	
+	@Override
 	public  void defaultMethod() {
 		System.out.println("Inside Overridden default method");
 	}

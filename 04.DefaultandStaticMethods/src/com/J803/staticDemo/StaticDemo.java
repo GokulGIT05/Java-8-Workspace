@@ -19,6 +19,7 @@ public class StaticDemo implements StaticInterf {
 
 interface StaticInterf {
 
+	// General Utility Methods, We can declare inside Interface.
 	public static void m1() {
 		System.out.println("Inside static method");
 	}
