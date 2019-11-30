@@ -4,7 +4,7 @@ public class ThreadByLamda {
 
 	public static void main(String[] args) {
 
-		// Lamda
+		// Lambda
 		Runnable myRun = () -> {
 			for (int i = 0; i <= 10; i++) {
 				System.out.println("Inside  Child Thread");

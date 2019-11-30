@@ -3,6 +3,7 @@ package com.J801.Lambda.Ex3.Thread;
 public class ThreadWithoutLambda {
 
 	public static void main(String[] args) {
+		
 		MyRunnable myThread = new MyRunnable();
 		Thread thread = new Thread(myThread);
 		thread.start();
