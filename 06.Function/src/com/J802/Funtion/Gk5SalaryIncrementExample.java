@@ -1,12 +1,14 @@
-package com.J801.Funtion;
+package com.J802.Funtion;
 
 import java.util.ArrayList;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class FxExercise4 {
+import com.J801.Function.dto.Employee;
 
-	// Program to perform Salary Increment for Employees by using Predicate Function
+public class Gk5SalaryIncrementExample {
+
+	// Program to perform Salary Increment for Employees by using Predicate and Function
 	public static void main(String[] args) {
 		ArrayList<Employee> theEmployees = new ArrayList<Employee>();
 
@@ -39,9 +41,9 @@ public class FxExercise4 {
 				updatedEmployees.add(theFunction.apply(emp));
 			}
 		}
-		
-		System.out.println("Before Increment Employees: "+theEmployees);
-		System.out.println("Incremented Employees: "+updatedEmployees);
+
+		System.out.println("Before Increment Employees: " + theEmployees);
+		System.out.println("Incremented Employees: " + updatedEmployees);
 	}
 
 	private static void populate(ArrayList<Employee> theEmployees) {

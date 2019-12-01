@@ -1,9 +1,9 @@
-package com.J801.Funtion;
+package com.J801.Function.dto;
 
 public class Student {
 
-	String name;
-	int marks;
+	public String name;
+	public int marks;
 	
 	
 	public Student(String name, int marks) {

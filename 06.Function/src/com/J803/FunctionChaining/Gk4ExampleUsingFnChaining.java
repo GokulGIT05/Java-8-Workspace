@@ -1,9 +1,9 @@
-package com.J802.FunctionChaining;
+package com.J803.FunctionChaining;
 
 import java.util.Scanner;
 import java.util.function.Function;
 
-public class Exercise1 {
+public class Gk4ExampleUsingFnChaining {
 
 	// Demo Program for Function Chaining.
 	public static void main(String[] args) {

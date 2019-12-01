@@ -1,8 +1,8 @@
-package com.J801.Funtion;
+package com.J801.Function.dto;
 
 public class Employee {
-	String name;
-	double salary;
+	public String name;
+	public double salary;
 
 	public Employee(String name, double salary) {
 		super();

@@ -1,8 +1,8 @@
-package com.J802.FunctionChaining;
+package com.J803.FunctionChaining;
 
 import java.util.function.Function;
 
-public class DemoStatic {
+public class Gk2FnChainStaticMethodDemo {
 	
 	// Function.identity() Demo
 	public static void main(String[] args) {

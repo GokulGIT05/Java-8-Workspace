@@ -1,11 +1,10 @@
-package com.J801.Funtion;
+package com.J802.Funtion;
 
 import java.util.function.Function;
 
-public class Fn01Demo {
+public class Gk1FunctionDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		//  Function to return length of String
 		Function<String, Integer> theFunction = s -> s.length();

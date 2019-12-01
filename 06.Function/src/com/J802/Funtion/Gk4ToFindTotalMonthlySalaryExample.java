@@ -1,9 +1,11 @@
-package com.J801.Funtion;
+package com.J802.Funtion;
 
 import java.util.ArrayList;
 import java.util.function.Function;
 
-public class FxExercise3 {
+import com.J801.Function.dto.Employee;
+
+public class Gk4ToFindTotalMonthlySalaryExample {
 
 	// Program to find Total Monthly Salary of All Employees by using Function
 	public static void main(String[] args) {
@@ -24,7 +26,8 @@ public class FxExercise3 {
 
 		};
 
-		System.out.println("The Total Salary of the Employees: " + theFunction.apply(theEmployees));
+		double totalSalaryOfEmployees = theFunction.apply(theEmployees);
+		System.out.println("The Total Salary of the Employees: " + totalSalaryOfEmployees);
 	}
 
 	private static void populate(ArrayList<Employee> theEmployees) {
