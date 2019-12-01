@@ -1,8 +1,8 @@
-package com.J801.cosumer;
+package com.J801.supplier;
 
 import java.util.function.Supplier;
 
-public class SupplierEx3 {
+public class Gk4ToGetRandomPasswordEx3 {
 
 	// To Generate random password
 	// 1. Password should be 8 characters
@@ -16,6 +16,7 @@ public class SupplierEx3 {
 
 			// Random Digit
 			Supplier<Integer> theDigit = () -> (int) (Math.random() * 10);
+
 			// Random Character
 			Supplier<Character> theChar = () -> {
 				String str = "ABCDERFGHIJKLMNOPQRSTUVVWXYZ!@#$";
@@ -32,10 +33,11 @@ public class SupplierEx3 {
 
 			return pwd;
 		};
-		
-		System.out.println("The Random Password is: "+theMainSupplier.get());
-		System.out.println("The Random Password is: "+theMainSupplier.get());
-		System.out.println("The Random Password is: "+theMainSupplier.get());
+
+		System.out.println((int) (Math.random() * 27)); // It will get number between 0 to 26
+		System.out.println("The Random Password is: " + theMainSupplier.get());
+		System.out.println("The Random Password is: " + theMainSupplier.get());
+		System.out.println("The Random Password is: " + theMainSupplier.get());
 
 	}
 

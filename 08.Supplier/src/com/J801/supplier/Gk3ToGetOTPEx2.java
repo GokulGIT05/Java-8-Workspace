@@ -1,8 +1,8 @@
-package com.J801.cosumer;
+package com.J801.supplier;
 
 import java.util.function.Supplier;
 
-public class SupplierEx2 {
+public class Gk3ToGetOTPEx2 {
 
 	// To Generate 6 Digit OTP
 	public static void main(String[] args) {

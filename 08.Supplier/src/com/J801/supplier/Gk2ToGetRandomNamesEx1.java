@@ -1,8 +1,8 @@
-package com.J801.cosumer;
+package com.J801.supplier;
 
 import java.util.function.Supplier;
 
-public class SupplierEx1 {
+public class Gk2ToGetRandomNamesEx1 {
 
 	// Program to get Random Name by using Supplier
 	public static void main(String[] args) {

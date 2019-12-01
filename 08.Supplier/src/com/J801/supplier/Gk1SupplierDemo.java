@@ -1,8 +1,8 @@
-package com.J801.cosumer;
+package com.J801.supplier;
 import java.util.Date;
 import java.util.function.Supplier;
 
-public class SupplierDemo {
+public class Gk1SupplierDemo {
 
 	// Program to get System Date by using Supplier
 	public static void main(String[] args) {
