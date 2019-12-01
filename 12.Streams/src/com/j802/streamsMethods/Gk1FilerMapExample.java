@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Exercise1 {
+public class Gk1FilerMapExample {
 
 	public static void main(String[] args) {
 		ArrayList<String> theNames=new ArrayList<String>();

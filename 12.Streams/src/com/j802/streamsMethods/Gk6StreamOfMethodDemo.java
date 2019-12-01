@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Exercise6 {
+public class Gk6StreamOfMethodDemo {
 
 	// Stream.of Method
 	public static void main(String[] args) {

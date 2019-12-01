@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Exercise2 {
+public class Gk2SortedMethodDemo {
 
 	public static void main(String[] args) {
 
@@ -23,6 +23,7 @@ public class Exercise2 {
 		System.out.println();
 		
 		// Customized Sorting Order (Descending Order)
+		// Instead of Comparator Interfaces, using directly in sorted Method
 		List<Integer> theCustomSort=theNos.stream().sorted((i1,i2)-> i2.compareTo(i1)).collect(Collectors.toList());
 		System.out.println("Customised Sorting Order: "+theCustomSort);
 

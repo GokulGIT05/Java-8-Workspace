@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Exercise3 {
+public class Gk3MinMaxMethods {
 
 	public static void main(String[] args) {
 
