@@ -1,8 +1,8 @@
-package com.j803.biconsume;
+package com.j801.bipredicate;
 
 import java.util.function.BiConsumer;
 
-public class BiConsumeDemo {
+public class Gk5BiConsumerDemo {
 	// Accepts two string and do the concatenation
 	public static void main(String[] args) {
 

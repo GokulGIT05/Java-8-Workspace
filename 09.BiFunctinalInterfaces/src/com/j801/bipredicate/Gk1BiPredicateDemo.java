@@ -2,11 +2,10 @@ package com.j801.bipredicate;
 
 import java.util.function.BiPredicate;
 
-public class BipredicateDemo {
+public class Gk1BiPredicateDemo {
 
 	// To Find sum of numbers is even or not.
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		BiPredicate<Integer,Integer> theBi= (i1,i2) -> (i1+i2) %2 ==0;
 		
