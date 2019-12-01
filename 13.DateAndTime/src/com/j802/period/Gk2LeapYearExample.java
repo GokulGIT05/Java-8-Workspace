@@ -3,7 +3,7 @@ package com.j802.period;
 import java.time.Year;
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Gk2LeapYearExample {
 
 	// To find the Leap year or not.
 	public static void main(String[] args) {

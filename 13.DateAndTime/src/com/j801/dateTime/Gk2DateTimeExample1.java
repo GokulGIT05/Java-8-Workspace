@@ -2,7 +2,7 @@ package com.j801.dateTime;
 
 import java.time.LocalDateTime;
 
-public class Exercise1 {
+public class Gk2DateTimeExample1 {
 
 	public static void main(String[] args) {
 

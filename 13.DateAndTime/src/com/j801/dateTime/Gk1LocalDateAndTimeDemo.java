@@ -3,7 +3,7 @@ package com.j801.dateTime;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class DateTimeDemo {
+public class Gk1LocalDateAndTimeDemo {
 
 	public static void main(String[] args) {
 
