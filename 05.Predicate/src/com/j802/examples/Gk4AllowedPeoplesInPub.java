@@ -2,7 +2,7 @@ package com.j802.examples;
 
 import java.util.function.Predicate;
 
-import com.j802.examples.pojo.SoftwareEngineer;
+import com.j802.examples.dto.SoftwareEngineer;
 
 public class Gk4AllowedPeoplesInPub {
 

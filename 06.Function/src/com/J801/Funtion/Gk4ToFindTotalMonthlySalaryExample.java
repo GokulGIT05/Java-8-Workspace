@@ -1,9 +1,9 @@
-package com.J802.Funtion;
+package com.J801.Funtion;
 
 import java.util.ArrayList;
 import java.util.function.Function;
 
-import com.J801.Function.dto.Employee;
+import com.J802.Function.dto.Employee;
 
 public class Gk4ToFindTotalMonthlySalaryExample {
 

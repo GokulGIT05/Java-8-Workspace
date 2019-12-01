@@ -3,7 +3,7 @@ package com.j802.examples;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-import com.j802.examples.pojo.Employee;
+import com.j802.examples.dto.Employee;
 
 public class Gk5EmployeeManagement {
 

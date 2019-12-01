@@ -3,36 +3,34 @@ package com.J801.Consumer;
 import java.util.ArrayList;
 import java.util.function.Consumer;
 
-public class Exercise1 {
+import com.J802.Consumer.dto.Movie;
+
+public class Gk2Example1 {
 
 	public static void main(String[] args) {
 
 		ArrayList<Movie> theMovies = new ArrayList<Movie>();
 
 		populateMovies(theMovies);
-		
-		Consumer<Movie> theConsumer= mve -> {
-			System.out.println("Movie Name: "+mve.movieName );
-			System.out.println("Hero: "+mve.hero );
-			System.out.println("Heroine: "+mve.heroine );
-			System.out.println();
-	
+
+		Consumer<Movie> theConsumer = eachMovie -> {
+			System.out.println("Movie Name: " + eachMovie.movieName);
+			System.out.println("Hero: " + eachMovie.hero);
+			System.out.println("Heroine: " + eachMovie.heroine);
+			System.out.println("*******************************");
+
 		};
-		
-		for(Movie mveList: theMovies) {
-			theConsumer.accept(mveList);
+
+		for (Movie eachMovie : theMovies) {
+			theConsumer.accept(eachMovie);
 		}
-		
-		
 
 	}
 
 	private static void populateMovies(ArrayList<Movie> theMovies) {
-		// TODO Auto-generated method stub
 		theMovies.add(new Movie("2.0", "Rajini", "Amy"));
 		theMovies.add(new Movie("Bahubali", "Prabhas", "Anuska"));
 		theMovies.add(new Movie("Harry Potter", "Harry", "Emmy Jackson"));
-
 	}
 
 }

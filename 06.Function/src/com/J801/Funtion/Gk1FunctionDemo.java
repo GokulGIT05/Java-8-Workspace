@@ -1,4 +1,4 @@
-package com.J802.Funtion;
+package com.J801.Funtion;
 
 import java.util.function.Function;
 

@@ -1,4 +1,4 @@
-package com.j802.examples.pojo;
+package com.j802.examples.dto;
 
 public class User {
 

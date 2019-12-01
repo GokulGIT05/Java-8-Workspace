@@ -1,4 +1,4 @@
-package com.J801.Function.dto;
+package com.J802.Function.dto;
 
 public class Employee {
 	public String name;

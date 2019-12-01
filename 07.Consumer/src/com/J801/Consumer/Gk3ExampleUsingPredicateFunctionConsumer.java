@@ -5,7 +5,9 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class Exercise2 {
+import com.J802.Consumer.dto.Student;
+
+public class Gk3ExampleUsingPredicateFunctionConsumer {
 
 	// Program to display Student Information by using Predicate, Function and
 	// Consumers
@@ -14,11 +16,11 @@ public class Exercise2 {
 		ArrayList<Student> theStudents = new ArrayList<Student>();
 		populate(theStudents);
 
-		// Predicate
+		// Predicate: It check pass
 		Predicate<Student> thePredicate = stud -> stud.marks > 60;
 
-		// Function
-		Function<Student, String> theFucnction = stud -> {
+		// Function: To Return Grade
+		Function<Student, String> theFunction = stud -> {
 			if (stud.marks > 80) {
 				return "A";
 			} else if (stud.marks > 60) {
@@ -31,11 +33,11 @@ public class Exercise2 {
 		Consumer<Student> theConsumer = stud -> {
 			System.out.println("The Student name: " + stud.name);
 			System.out.println("The Marks: " + stud.marks);
-			System.out.println("The Grade: " + theFucnction.apply(stud));
+			System.out.println("The Grade: " + theFunction.apply(stud));
 			System.out.println();
 		};
 
-		// Printing Values:
+		// To Check For passed Students then applying grade.
 		for (Student std : theStudents) {
 			if (thePredicate.test(std)) {
 				theConsumer.accept(std);

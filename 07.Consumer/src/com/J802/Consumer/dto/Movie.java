@@ -1,10 +1,10 @@
-package com.J801.Consumer;
+package com.J802.Consumer.dto;
 
 public class Movie {
 	
-	String movieName;
-	String hero;
-	String heroine;
+	public String movieName;
+	public String hero;
+	public String heroine;
 	
 	
 	public Movie(String movieName, String hero, String heroine) {

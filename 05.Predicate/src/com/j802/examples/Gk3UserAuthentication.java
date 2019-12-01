@@ -3,7 +3,7 @@ package com.j802.examples;
 import java.util.Scanner;
 import java.util.function.Predicate;
 
-import com.j802.examples.pojo.User;
+import com.j802.examples.dto.User;
 
 public class Gk3UserAuthentication {
 

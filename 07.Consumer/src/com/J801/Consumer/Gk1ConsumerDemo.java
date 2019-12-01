@@ -2,7 +2,7 @@ package com.J801.Consumer;
 
 import java.util.function.Consumer;
 
-public class ConsumerDemo {
+public class Gk1ConsumerDemo {
 
 	public static void  main(String[] args) {
 		
