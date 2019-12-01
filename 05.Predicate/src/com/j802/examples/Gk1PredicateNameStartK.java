@@ -1,8 +1,8 @@
-package com.J801.Test;
+package com.j802.examples;
 
 import java.util.function.Predicate;
 
-public class PredicateNameStartK {
+public class Gk1PredicateNameStartK {
 
 	// Program to display names start with k or not.
 	public static void main(String[] args) {

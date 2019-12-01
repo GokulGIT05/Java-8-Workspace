@@ -1,9 +1,9 @@
-package com.J801.Test;
+package com.j802.examples.pojo;
 
 public class User {
 
-	String userName;
-	String pwd;
+	public String userName;
+	public String pwd;
 
 	public User(String userName, String pwd) {
 		super();

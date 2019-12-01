@@ -1,4 +1,4 @@
-package com.J801.Test;
+package com.J801.methodsdemo;
 
 import java.util.function.Predicate;
 

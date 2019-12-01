@@ -1,9 +1,9 @@
-package com.J801.Test;
+package com.j802.examples;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-public class TestPredicateEx2 {
+public class Gk2ToRemoveEmptyAndNullValues {
 
 	// To Remove empty list and null values from the given list.
 	public static void main(String[] args) {

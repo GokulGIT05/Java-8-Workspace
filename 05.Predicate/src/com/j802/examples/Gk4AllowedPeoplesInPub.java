@@ -1,8 +1,10 @@
-package com.J801.Test;
+package com.j802.examples;
 
 import java.util.function.Predicate;
 
-public class TestPredicateEx4 {
+import com.j802.examples.pojo.SoftwareEngineer;
+
+public class Gk4AllowedPeoplesInPub {
 
 	// Program to Check Whether Software Engineer is allowed into Pub or not
 	public static void main(String[] args) {

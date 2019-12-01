@@ -1,15 +1,18 @@
-package com.J801.Test;
+package com.j802.examples;
 
 import java.util.Scanner;
 import java.util.function.Predicate;
 
-public class TestPredicateEx3 {
+import com.j802.examples.pojo.User;
+
+public class Gk3UserAuthentication {
 
 	// Program for User Authentication by using Predicate
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 		Predicate<User> thePredicate = usr -> usr.userName.equals("Gokul") && usr.pwd.equals("Gk123");
+
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter UserName: ");
 		String UserName = sc.next();

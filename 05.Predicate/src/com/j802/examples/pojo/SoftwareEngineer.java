@@ -1,10 +1,10 @@
-package com.J801.Test;
+package com.j802.examples.pojo;
 
 public class SoftwareEngineer {
 	
-	String name;
-	int age;
-	boolean isCouple;
+	public String name;
+	public int age;
+	public boolean isCouple;
 	
 	public SoftwareEngineer(String name, int age, boolean isCouple) {
 		super();
