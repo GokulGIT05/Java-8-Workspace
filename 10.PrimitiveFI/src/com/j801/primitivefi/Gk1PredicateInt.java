@@ -1,8 +1,8 @@
-package com.j801.predicate;
+package com.j801.primitivefi;
 
 import java.util.function.IntPredicate;
 
-public class PredicateInt {
+public class Gk1PredicateInt {
 
 	public static void main(String[] args) {
 
