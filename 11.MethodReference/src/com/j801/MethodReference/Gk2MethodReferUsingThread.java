@@ -1,6 +1,6 @@
 package com.j801.MethodReference;
 
-public class MethodReferInstance {
+public class Gk2MethodReferUsingThread {
 
 	public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class MethodReferInstance {
 		// Second Approach:
 		// Lambda Alternative: Method Reference Appraoch
 
-		MethodReferInstance theReference = new MethodReferInstance();
+		Gk2MethodReferUsingThread theReference = new Gk2MethodReferUsingThread();
 		// Because of instance method we need to call by using reference object.
 		Runnable mRefer = theReference::methodReference;
 
@@ -36,6 +36,7 @@ public class MethodReferInstance {
 
 	}
 
+	// This method will act like run() method inside Runnable Interface.
 	public void methodReference() {
 
 		for (int i = 0; i <= 5; i++) {
