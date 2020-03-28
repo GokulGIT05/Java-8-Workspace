@@ -16,26 +16,40 @@ public class Gk1StreamsExamples {
 
 		List<Employee> employeeList = loadEmployeeData();
 
-		System.out.println(employeeList.stream().collect(Collectors.groupingBy(e -> "Gk3"))); // All the employees are groupby Gk3
+		// 1. groupingBy -  // All the employees are groupBy 'Gk3'
+		Map<String, List<Employee>> groupByEmpName = employeeList.stream().collect(Collectors.groupingBy(e -> e.getName()));
+		System.out.println(groupByEmpName);
+		
+		for(Map.Entry<String , List<Employee>> emp: groupByEmpName.entrySet() ) {
+			
+			System.out.println("Key: " + emp.getKey() );
+			System.out.println("Value: " + emp.getValue());
+			
+		}
+		
+		System.out.println("******************************");
 
-		List<Employee> sortByAge = employeeList.stream()
-												.sorted(Comparator.comparingInt(emp -> emp.getAge()))
-												.collect(Collectors.toList());
-		System.out.println(sortByAge);
+		// 2. Sort by Age:
+		List<Employee> sortByAge = employeeList.stream().sorted(Comparator.comparingInt(emp -> emp.getAge()))
+				.collect(Collectors.toList());
+		System.out.println("2. Sort by Age "+sortByAge);
+		System.out.println("******************************");
 		
 		Employee empDetail = employeeList.stream().filter(emp -> emp.getName().equals("Gk1")).findFirst().orElse(null);
 		System.out.println(empDetail);
-		
-		List<Employee> empDetailList = employeeList.stream().filter(emp -> emp.getName().equals("Gk1")).collect(Collectors.toList());
+
+		List<Employee> empDetailList = employeeList.stream().filter(emp -> emp.getName().equals("Gk1"))
+				.collect(Collectors.toList());
 		System.out.println(empDetailList);
-		
-		
-		Map<String, List<Employee>> empMap = new HashMap<String,List<Employee>>();
-		empMap  = employeeList.stream().collect(Collectors.groupingBy(emp -> emp.getName())); // Inside Lambda(grouping By) Everything is run time. 
+
+		Map<String, List<Employee>> empMap = new HashMap<String, List<Employee>>();
+		empMap = employeeList.stream().collect(Collectors.groupingBy(emp -> emp.getName())); // Inside Lambda(grouping
+																								// By) Everything is run
+																								// time.
 		System.out.println(empMap);
-		
-		List<String> empNames =  employeeList.stream().map(emp -> emp.getName()).collect(Collectors.toList());
-		System.out.println(empNames);	
+
+		List<String> empNames = employeeList.stream().map(emp -> emp.getName()).collect(Collectors.toList());
+		System.out.println(empNames);
 	}
 
 	private static List<Employee> loadEmployeeData() {

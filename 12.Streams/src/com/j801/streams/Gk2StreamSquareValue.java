@@ -24,8 +24,8 @@ public class Gk2StreamSquareValue {
 		// Java 8 Approach
 		System.out.println("Java 8 Approach");
 		ArrayList<Integer> evenJava8 = new ArrayList<Integer>();
-		evenJava8 = (ArrayList<Integer>) theNos.stream().map(i->i*2).collect(Collectors.toList());
-		System.out.println("Java 8: 2 times the orig values: "+evenJava8);
+		evenJava8 = (ArrayList<Integer>) theNos.stream().map(i -> i * 2).collect(Collectors.toList());
+		System.out.println("Java 8: 2 times the orig values: " + evenJava8);
 
 	}
 
