@@ -8,7 +8,7 @@ import java.util.Optional;
 import com.gk2.amigoTut.pojo.Gender;
 import com.gk2.amigoTut.pojo.Person;
 
-public class Gk7StreamsOldestFemale {
+public class Gk7StreamsOldestPerson {
 
 	public static void main(String[] args) {
 
